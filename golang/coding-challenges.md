@@ -1,8 +1,8 @@
 ## Coding Challenges:
+### 1. **Palindrome Check**
+**Challenge:** Write a function to determine if a given string is a palindrome (reads the same backward as forward). Ignore non-alphanumeric characters.
 
-### 1. **Palindrome Check:**
-Write a function to determine if a given string is a palindrome (reads the same backward as forward). Ignore non-alphanumeric characters.
-
+**Solution:**
 ```go
 package main
 
@@ -38,13 +38,15 @@ func removeNonAlphanumeric(s string) string {
 
 func main() {
 	fmt.Println(isPalindrome("A man, a plan, a canal: Panama"))  // true
-	fmt.Println(isPalindrome("race a car"))                      // false
+	fmt.Println(isPalindrome("race a car"))						// false
+	fmt.Println(isPalindrome("race car"))                      // true
 }
 ```
 
 ### 2. **FizzBuzz:**
-Write a program that prints the numbers from 1 to 100. But for multiples of three, print "Fizz" instead of the number, and for the multiples of five, print "Buzz." For numbers that are multiples of both three and five, print "FizzBuzz."
+**Challenge:** Write a program that prints the numbers from 1 to 100. But for multiples of three, print "Fizz" instead of the number, and for the multiples of five, print "Buzz." For numbers that are multiples of both three and five, print "FizzBuzz."
 
+**Solution:**
 ```go
 package main
 
@@ -70,8 +72,9 @@ func main() {
 ```
 
 ### 3. **Reverse Linked List:**
-Write a function to reverse a singly linked list.
+**Challenge:** Write a function to reverse a singly linked list.
 
+**Solution:**
 ```go
 package main
 
@@ -115,9 +118,11 @@ func main() {
 }
 ```
 
-### 4. **Two Sum:**
-Given an array of integers, find two numbers such that they add up to a specific target number.
 
+### 4. **Two Sum:**
+**Challenge:** Given an array of integers, find two numbers such that they add up to a specific target number.
+
+**Solution:**
 ```go
 package main
 
@@ -146,8 +151,9 @@ func main() {
 ```
 
 ### 5. **Binary Search:**
-Implement binary search in a sorted array.
+**Challenge:** Implement binary search in a sorted array.
 
+**Solution:**
 ```go
 package main
 
@@ -179,8 +185,9 @@ func main() {
 ```
 
 ### 6. **Merge Two Sorted Lists:**
-Merge two sorted linked lists into a single sorted linked list.
+**Challenge:** Merge two sorted linked lists into a single sorted linked list.
 
+**Solution:** 
 ```go
 package main
 
@@ -239,8 +246,9 @@ func main() {
 ```
 
 ### 7. **Longest Common Prefix:**
-Write a function to find the longest common prefix string amongst an array of strings.
+**Challenge:** Write a function to find the longest common prefix string amongst an array of strings.
 
+**Solution:**
 ```go
 package main
 
@@ -272,8 +280,9 @@ func main() {
 ```
 
 ### 8. **Reverse Integer:**
-Reverse digits of an integer. Return 0 if the result overflows.
+**Challenge:** Reverse digits of an integer. Return 0 if the result overflows.
 
+**Solution:**
 ```go
 package main
 
@@ -310,8 +319,9 @@ func main() {
 ```
 
 ### 9. **Valid Parentheses:**
-Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+**Challenge:** Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
+**Solution:**
 ```go
 package main
 
@@ -346,8 +356,9 @@ func main() {
 ```
 
 ### 10. **Count and Say:**
-The count-and-say sequence is a series of numbers with the following pattern: `1, 11, 21, 1211, 111221, ...`. Write a function to generate the nth term of the count-and-say sequence.
+**Challenge:** The count-and-say sequence is a series of numbers with the following pattern: `1, 11, 21, 1211, 111221, ...`. Write a function to generate the nth term of the count-and-say sequence.
 
+**Solution:**
 ```go
 package main
 
@@ -386,8 +397,9 @@ func main() {
 ```
 
 ### 11. **Majority Element:**
-Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊n/2⌋ times.
+**Challenge:** Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊n/2⌋ times.
 
+**Solution:**
 ```go
 package main
 
@@ -409,8 +421,9 @@ func main() {
 ```
 
 ### 12. **Rotate Image:**
-You are given an n x n 2D matrix representing an image. Rotate the image by 90 degrees (clockwise).
+**Challenge:** You are given an n x n 2D matrix representing an image. Rotate the image by 90 degrees (clockwise).
 
+**Solution:**
 ```go
 package main
 
@@ -456,8 +469,9 @@ func main() {
 ```
 
 ### 13. **Goroutine with Channels - Simple Example:**
-A basic example where a Goroutine sends data to a channel, and the main Goroutine receives and prints the data.
+**Challenge:** A basic example where a Goroutine sends data to a channel, and the main Goroutine receives and prints the data.
 
+**Solution:**
 ```go
 package main
 
@@ -486,8 +500,9 @@ func main() {
 ```
 
 ### 14. **Goroutine with Channels - Fan-Out, Fan-In:**
-An example illustrating Fan-Out and Fan-In patterns using Goroutines and channels.
+**Challenge:** An example illustrating Fan-Out and Fan-In patterns using Goroutines and channels.
 
+**Solution:**
 ```go
 package main
 
@@ -547,8 +562,9 @@ func main() {
 ```
 
 ### 15. **Select Statement with Goroutines and Channels:**
-Using the `select` statement to synchronize multiple Goroutines through channels.
+**Challenge:** Using the `select` statement to synchronize multiple Goroutines through channels.
 
+**Solution:**
 ```go
 package main
 
@@ -593,8 +609,9 @@ func main() {
 ```
 
 ### 16. **Worker Pool Pattern:**
-Using a worker pool pattern to parallelize tasks using Goroutines and channels.
+**Challenge:** Using a worker pool pattern to parallelize tasks using Goroutines and channels.
 
+**Solution:** 
 ```go
 package main
 
@@ -646,12 +663,10 @@ func main() {
 }
 ```
 
-Certainly! Here are some coding challenge interview questions tailored for Golang developers:
-
-### 1. **Fibonacci Series:**
+### 17. **Fibonacci Series:**
 **Challenge:** Write a function in Golang to generate the Fibonacci series up to a given number.
 
-**Example:**
+**Solution:**
 ```go
 package main
 
@@ -674,10 +689,10 @@ func main() {
 }
 ```
 
-### 2. **String Reversal:**
+### 18. **String Reversal:**
 **Challenge:** Implement a function in Golang to reverse a given string.
 
-**Example:**
+**Solution:**
 ```go
 package main
 
@@ -697,10 +712,10 @@ func main() {
 }
 ```
 
-### 3. **Palindrome Check:**
+### 19. **Palindrome Check:**
 **Challenge:** Write a function in Golang to check if a given string is a palindrome.
 
-**Example:**
+**Solution:**
 ```go
 package main
 
@@ -728,10 +743,10 @@ func main() {
 }
 ```
 
-### 4. **Factorial Calculation:**
+### 20. **Factorial Calculation:**
 **Challenge:** Implement a function in Golang to calculate the factorial of a given number.
 
-**Example:**
+**Solution:**
 ```go
 package main
 
@@ -750,10 +765,10 @@ func main() {
 }
 ```
 
-### 5. **Two Sum:**
+### 21. **Two Sum:**
 **Challenge:** Write a function in Golang to find all pairs in an array that add up to a specific target sum.
 
-**Example:**
+**Solution:**
 ```go
 package main
 
@@ -780,10 +795,10 @@ func main() {
 }
 ```
 
-### 6. **Binary Search:**
+### 22. **Binary Search:**
 **Challenge:** Implement a binary search algorithm in Golang.
 
-**Example:**
+**Solution:**
 ```go
 package main
 
@@ -814,47 +829,10 @@ func main() {
 }
 ```
 
-Certainly! Here are more Golang coding challenges for interviews:
-
-### 7. **Longest Common Prefix:**
-**Challenge:** Write a function in Golang to find the longest common prefix of an array of strings.
-
-**Example:**
-```go
-package main
-
-import "fmt"
-
-func longestCommonPrefix(strs []string) string {
-    if len(strs) == 0 {
-        return ""
-    }
-
-    prefix := strs[0]
-
-    for _, str := range strs[1:] {
-        for i := 0; i < len(prefix) && i < len(str); i++ {
-            if prefix[i] != str[i] {
-                prefix = prefix[:i]
-                break
-            }
-        }
-    }
-
-    return prefix
-}
-
-func main() {
-    strings := []string{"flower", "flow", "flight"}
-    fmt.Println(longestCommonPrefix(strings))
-    // Output: "fl"
-}
-```
-
-### 8. **Valid Anagram:**
+### 23. **Valid Anagram:**
 **Challenge:** Write a function in Golang to determine if two strings are anagrams.
 
-**Example:**
+**Solution:**
 ```go
 package main
 
@@ -869,8 +847,14 @@ func isAnagram(s, t string) bool {
     }
 
     sChars, tChars := []rune(s), []rune(t)
-    sort.Slice(sChars, func(i, j int) bool { return sChars[i] < sChars[j] })
-    sort.Slice(tChars, func(i, j int) bool { return tChars[i] < tChars[j] })
+    
+	sort.Slice(sChars, func(i, j int) bool { 
+		return sChars[i] < sChars[j] 
+	})
+    
+	sort.Slice(tChars, func(i, j int) bool { 
+		return tChars[i] < tChars[j] 
+	})
 
     return string(sChars) == string(tChars)
 }
@@ -881,10 +865,10 @@ func main() {
 }
 ```
 
-### 9. **Reverse Linked List:**
+### 24. **Reverse Linked List:**
 **Challenge:** Implement a function in Golang to reverse a singly linked list.
 
-**Example:**
+**Solution:**
 ```go
 package main
 
@@ -920,10 +904,10 @@ func main() {
 }
 ```
 
-### 10. **Counting Elements:**
+### 25. **Counting Elements:**
 **Challenge:** Write a function in Golang to count the number of elements in an array that are smaller than the element at their index.
 
-**Example:**
+**Solution:**
 ```go
 package main
 
@@ -950,10 +934,10 @@ func main() {
 }
 ```
 
-### 11. **Valid Parenthesis Expression:**
+### 26. **Valid Parenthesis Expression:**
 **Challenge:** Write a function in Golang to determine if a given string represents a valid parentheses expression.
 
-**Example:**
+**Solution:**
 ```go
 package main
 
@@ -983,10 +967,10 @@ func main() {
 }
 ```
 
-### 12. **Meeting Rooms:**
+### 27. **Meeting Rooms:**
 **Challenge:** Given a list of meetings, write a function in Golang to determine if a person can attend all meetings without overlapping.
 
-**Example:**
+**Solution:**
 ```go
 package main
 
@@ -1019,10 +1003,10 @@ func main() {
 ```
 
 
-### 1. **Goroutine Basics:**
+### 28. **Goroutine Basics:**
 **Challenge:** Write a Golang program that uses Goroutines to print "Hello, World!" concurrently.
 
-**Example:**
+**Solution:**
 ```go
 package main
 
@@ -1044,10 +1028,10 @@ func main() {
 }
 ```
 
-### 2. **Channel Communication:**
+### 29. **Channel Communication:**
 **Challenge:** Create two Goroutines. One Goroutine should send numbers from 1 to 10 to a channel, and the other Goroutine should receive the numbers and print them.
 
-**Example:**
+**Solution:**
 ```go
 package main
 
@@ -1077,10 +1061,10 @@ func main() {
 }
 ```
 
-### 3. **Concurrency with WaitGroup:**
+### 30. **Concurrency with WaitGroup:**
 **Challenge:** Modify the previous example to use `sync.WaitGroup` to ensure that both Goroutines have completed before the main function exits.
 
-**Example:**
+**Solution:**
 ```go
 package main
 
@@ -1116,10 +1100,10 @@ func main() {
 }
 ```
 
-### 4. **Producer-Consumer with Channels:**
+### 31. **Producer-Consumer with Channels:**
 **Challenge:** Implement a simple producer-consumer scenario. Have one Goroutine act as a producer, generating numbers from 1 to 5 and sending them to a channel. Another Goroutine should act as a consumer, receiving the numbers and printing them.
 
-**Example:**
+**Solution:**
 ```go
 package main
 
@@ -1155,10 +1139,10 @@ func main() {
 }
 ```
 
-### 5. **Select Statement with Timeout:**
+### 32. **Select Statement with Timeout:**
 **Challenge:** Implement a Goroutine that performs a task but times out after a certain duration. Use the `select` statement to handle both the task completion and the timeout.
 
-**Example:**
+**Solution:**
 ```go
 package main
 
@@ -1185,3 +1169,213 @@ func main() {
 	}
 }
 ```
+
+### 33. **print and sum prime numbers which has digits sum is less than 10**
+**Challenge:** Find a prime numbers from 1 -100 and sum of it's digit and sum should be less than 10.
+
+**Solution:**
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func primeSum(num int) int {
+	count := 0
+	for i := 1; i <= num; i++ {
+		if num%i == 0 {
+			count++
+		}
+	}
+
+	if count == 2 {
+		sum := sumOfDigits(num)
+		if sum < 10 {
+			fmt.Print(num, " ")
+			return sum
+		}
+	}
+	return 0
+}
+
+func sumOfDigits(n int) int {
+	sum := 0
+	// Iterate through each digits of the number
+	for n > 0 {
+		// Extract the last digit
+		digit := n % 10
+
+		// add digit to the sum
+		sum += digit
+
+		// Remove the last digit from the number
+		n = n / 10
+	}
+	return sum
+}
+
+func main() {
+	allPrimeSum := 0
+	allDigitSum := 0
+
+	for i := 1; i <= 100; i++ {
+		prSum := primeSum(i)
+		if prSum > 0 {
+			allDigitSum += prSum
+			allPrimeSum += i
+		}
+	}
+	fmt.Println()
+	fmt.Println("All Prime Sum:", allPrimeSum)
+	fmt.Println("All Prime Digit Sum:", allDigitSum)
+}
+```
+
+### 34. **Print Even Odd Number in Sequence**
+**Challenge:** Write a program to print even and odd number in between 1 to 10 in alternatly, using two goroutine functions?
+
+**Solution:**
+```go
+package main
+
+import (
+	"fmt"
+	"sync"
+)
+
+func printOdd(ch chan struct{}, wg *sync.WaitGroup) {
+	defer wg.Done()
+	for i := 1; i <= 10; i++ {
+		ch <- struct{}{}
+		if i%2 == 1 {
+			fmt.Print(i, " ")
+		}
+	}
+}
+
+func printEven(ch chan struct{}, wg *sync.WaitGroup) {
+	defer wg.Done()
+	for i := 1; i <= 10; i++ {
+		<-ch
+		if i%2 == 0 {
+			fmt.Print(i, " ")
+		}
+	}
+}
+
+func main() {
+	var wg sync.WaitGroup
+	ch := make(chan struct{})
+	wg.Add(2)
+	go printOdd(ch, &wg)
+	go printEven(ch, &wg)
+	wg.Wait()
+	close(ch)
+	fmt.Println()
+}
+```
+
+
+### 35. **Stack and Queue implementation:**
+**Challenge:** Build Stack and Queue in golang.
+
+**Solution:**
+```go
+package main
+
+import "fmt"
+
+type Stack struct {
+	Val []int
+}
+
+type Queue struct {
+	Val []int
+}
+
+func (s *Stack) Push(num int) int {
+	s.Val = append(s.Val, num)
+	return num
+}
+
+func (s *Stack) Pop() {
+	if !s.IsEmpty() {
+		fmt.Printf("\nPopped %v from stack\n", s.Val[len(s.Val)-1])
+		s.Val = s.Val[:len(s.Val)-1]
+	} else {
+		fmt.Println("Stack is empty!")
+	}
+}
+
+func (q *Queue) Enqueue(num int) int {
+	q.Val = append(q.Val, num)
+	return num
+}
+
+func (q *Queue) Dequeue() {
+	if !q.IsEmpty() {
+		fmt.Printf("\nDequeued %v from queue\n", q.Val[0])
+		q.Val = q.Val[1:]
+	} else {
+		fmt.Println("Queue is empty!")
+	}
+}
+
+func (q *Queue) IsEmpty() bool {
+	if len(q.Val) == 0 {
+		return true
+	}
+	return false
+}
+
+func (s *Stack) IsEmpty() bool {
+	if len(s.Val) == 0 {
+		return true
+	}
+	return false
+}
+
+func main() {
+	// LastInFirstOut
+	stk := Stack{}
+	stk.Push(2)
+	fmt.Println("Stack: ", stk.Val)
+	stk.Push(3)
+	fmt.Println("Stack: ", stk.Val)
+	stk.Push(4)
+	fmt.Println("Stack: ", stk.Val)
+	stk.Push(6)
+	fmt.Println("Stack: ", stk.Val)
+	stk.Pop()
+	fmt.Println("Stack: ", stk.Val)
+	stk.Pop()
+	fmt.Println("Stack: ", stk.Val)
+	stk.Pop()
+	fmt.Println("Stack: ", stk.Val)
+	stk.Pop()
+	fmt.Println("Stack: ", stk.Val)
+	// FirstInFirstOut
+	fmt.Println()
+	que := Queue{}
+	que.Enqueue(12)
+	fmt.Println("Queue: ", que.Val)
+	que.Enqueue(23)
+	fmt.Println("Queue: ", que.Val)
+	que.Enqueue(45)
+	fmt.Println("Queue: ", que.Val)
+	que.Enqueue(65)
+	fmt.Println("Queue: ", que.Val)
+	que.Enqueue(49)
+	fmt.Println("Queue: ", que.Val)
+	que.Dequeue()
+	fmt.Println("Queue: ", que.Val)
+	que.Dequeue()
+	fmt.Println("Queue: ", que.Val)
+	que.Dequeue()
+	fmt.Println("Queue: ", que.Val)
+	que.Dequeue()
+	fmt.Println("Queue: ", que.Val)
+}
+```
+
