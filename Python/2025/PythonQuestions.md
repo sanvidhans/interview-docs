@@ -1,7 +1,9 @@
 ## Python Interview Questions
 
 #### 1. What are the key features of Python that make it suitable for microservices?
-**Answer**: Python’s simplicity, readability, and extensive ecosystem make it ideal for microservices. Key features include:
+**Answer**: Python’s simplicity, readability, and extensive ecosystem make it ideal for microservices. 
+
+Key features include:
 - **Dynamic Typing**: Speeds up development.
 - **Rich Libraries**: Frameworks like Flask, FastAPI, and Django for APIs.
 - **Concurrency Support**: Asyncio and libraries like `aiohttp` for scalable services.
@@ -11,7 +13,9 @@
 ---
 
 #### 2. How do you manage dependencies in a Python microservice?
-**Answer**: Use `pip` with a `requirements.txt` file or `poetry`/`pipenv` for dependency management. Example:
+**Answer**: Use `pip` with a `requirements.txt` file or `poetry`/`pipenv` for dependency management.
+
+Example:
 - Create `requirements.txt`: `pip freeze > requirements.txt`.
 - Install: `pip install -r requirements.txt`.
 - Use `poetry` for isolated environments: `poetry add <package>`.
@@ -809,3 +813,4 @@ async def limited():
 ```
 
 ---
+
