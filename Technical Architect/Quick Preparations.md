@@ -1,11 +1,3 @@
-**Q:** “Tell me briefly about yourself and why you’re excited for this role.”
-
-**A:**
-
-> “I’m Sanvidhan, a Full Stack Developer with 11 years’ experience in cloud-native microservices and serverless AWS. Most recently at Hectronic India, I designed Lambda/SQS pipelines for an eMobility platform—boosting throughput by 40%—and led a team of five to adopt Kubernetes Operators for zero-downtime deployments. I’m eager to bring my Python expertise and enterprise-scale integration skills to Wipro’s global client environments.”
-
----
-
 ## 2. Systems Design
 
 **Q:** “Design a scalable, reliable file-upload system for large media files.”
